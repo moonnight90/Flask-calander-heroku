@@ -46,6 +46,7 @@ class Calander():
         while True:
             self.a+=1
             self.change_date(self.today_prayer_time())
+            time.sleep(1)
 
 obj = None
 
