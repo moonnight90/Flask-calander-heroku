@@ -16,9 +16,12 @@
         {% endif %}
 
     </span>
+    <hr>
     <form action="/set" method="POST">
         <input type="checkbox" name="check" {%if value.month%} checked {%endif%}>
-        <label for="30 days Month">30 days Month</label>
+        <label for="30 days Month">30 days Month</label><br/>
+        <label for="Year">Password</label><br/>
+        <input type="password" name='pass'><br/>
         <input type="submit" value="Set">
     </form>
 </body>
